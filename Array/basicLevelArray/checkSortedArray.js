@@ -8,5 +8,5 @@ function checkSortedArray(arr) {
   return isSorted;
 }
 
-let value = checkSortedArray([1, 32, 43, 111]);
-console.log("value: ", value);
+let values = checkSortedArray([1, 32, 43, 111]);
+console.log("value: ", values);
