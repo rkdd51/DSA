@@ -16,7 +16,7 @@ let array = [32, 44, 23, 1]
 // Reverse an array
 
 
-let reverseArrayInPlace = function (arr) {
+let reverseArrayInPlaceOptimized = function (arr) {
     let left = 0;
     let right = arr.length - 1;
 
@@ -31,5 +31,5 @@ let reverseArrayInPlace = function (arr) {
 
 }
 
-let result = reverseArrayInPlace(array);
+let result = reverseArrayInPlaceOptimized(array);
 console.log(result)
