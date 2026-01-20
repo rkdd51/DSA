@@ -7,6 +7,7 @@ let moveZeroToEnd = function (arr) {
             pos++
         }
     }
+    // Fill the remaining positions with 0
     while (pos < arr.length) {
         arr[pos] = 0;
         pos++
